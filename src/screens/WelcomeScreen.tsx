@@ -4,14 +4,14 @@ import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 export default function WelcomeScreen({ navigation }: any) {
   return (
     <View style={styles.container}>
-      <Image source={require('../../assets/logo.png')} style={styles.logo} />
+      <Image source={require('../../assets/Logo.png')} style={styles.logo} />
 
       <Text style={styles.title}>
         Descubra, colecione e personalize o seu mundo nerd
       </Text>
 
       <Image
-        source={require('../assets/Herois.png')}
+        source={require('../../assets/Herois.png')}
         style={styles.illustration}
         resizeMode="contain"
       />

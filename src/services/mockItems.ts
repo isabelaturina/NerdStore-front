@@ -33,6 +33,6 @@ export const items: Item[] = [
     title: 'Camiseta Naruto',
     category: 'Roupa',
     price: 'R$ 89,90',
-    image: require('../../assets/camisetanaruto.jpg'),
+    image: require('../../assets/camisetanaruto.png'),
   },
 ];
